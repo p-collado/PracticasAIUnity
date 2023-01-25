@@ -154,7 +154,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 3.5
+  m_Speed: 7
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -637,7 +637,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxTasksPerTick: 500
-  behavior: {fileID: 11400000, guid: 096f4b02b32094a419cee8096aa6f12f, type: 2}
+  behavior: {fileID: 11400000, guid: 1dc5339beb664f445a9762f7b322cd76, type: 2}
   paused: 0
   restartWhenFinished: 0
   blackboard:
@@ -657,9 +657,11 @@ MonoBehaviour:
     colorParamsNames: []
     colorParamsLostDefaultValue: 
     objectParams:
+    - {fileID: 291951492}
     - {fileID: 558043870}
     objectParamsNames:
-    - area
+    - Player
+    - Floor
     objectParamsLostDefaultValue: 
     layerMaskParams: []
     layerMaskParamsNames: []
